@@ -13,12 +13,52 @@ $Verydarkblue: hsl(224, 21%, 14%);
 $font-famili: 'Plus Jakarta Sans';
 
 body{
-    
+    margin:  auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: $font-famili;
+    background-color: $Lightgrayishblue1;
+   
+}
+main{
+    background-color: $White;
+    max-width: 100vw;
+    border-radius: 0px;
+    padding: 0px;
+}
+
+.notifications{
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    h1{
+        color: $Verydarkblue;
+        font-size: 1.2rem;
+        span{
+            background-color: $Blue;
+            color: $White;
+            border-radius: 5px;
+            padding: 4px 9px;
+            font-size: 0.8rem;
+        }
     
+    }
+    p{
+        color: $Grayishblue;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    p:hover{
+        color: $Blue;
+        cursor: pointer;
+    }
+
 }
 
 .container{
@@ -26,6 +66,101 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: left;
+    padding: 20px;
+    gap: 15px;
+
+    .card, .card2{
+        background-color:$Verylightgrayishblue;
+        display: flex;
+        padding: 10px;
+        gap: 15px;
+        font-size: 0.8em;
+        border-radius: 10px;
+        img{
+            width: 40px;
+            height: 40px;
+            padding: 3px;
+            
+        
+        }
+        i{
+            color: $Red;
+        }
+        
+        p{
+            margin-right: 20px;
+            color: $Darkgrayishblue;
+        }
+
+
+        
+        .link{
+            color: $Darkgrayishblue;
+            font-weight: 800;
+        }
+        .link:hover{
+            cursor: pointer;
+            color: $Blue;
+        }
+        .name{
+            color: $Verydarkblue;
+            font-weight: 800;
+            margin-right: 3px;
+            
+        }
+        .name:hover{
+            cursor: pointer;
+        }
+        .time{
+            color: $Grayishblue;
+            line-height: 2;
+            font-weight: 500;
+        }
+
+        .chess{
+            color: $Blue;
+            font-weight: 800;
+        }
+        .chess:hover{
+            cursor: pointer;
+        }
+        .chess:active{
+            color: $Darkgrayishblue;
+        }
+
+        img:hover{
+            cursor: pointer;
+        }
+        .img-chess{
+            margin-left: auto;
+        }
+    }
+
+    .card2{
+        background-color: transparent;
+    }
+    .card-p{
+        display: flex;
+        flex-direction: column;
+        .message-container{
+            border: 1px solid $Lightgrayishblue2;
+            width: 70%;
+            margin-left: auto;
+            font-size: 0.8rem;
+            padding: 10px;
+            color: $Grayishblue;
+            font-weight: 500;
+            p{
+                color: $Darkgrayishblue;
+            }
+
+
+        }
+        .message-container:hover{
+            cursor: pointer;
+            background-color: $Lightgrayishblue1;
+        }
+    }
 }
 
 

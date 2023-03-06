@@ -1,10 +1,50 @@
 @import url(/Sass/cssreload.css);
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
 body {
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Plus Jakarta Sans";
+  background-color: hsl(211, 68%, 94%);
+}
+
+main {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 100vw;
+  border-radius: 0px;
+  padding: 0px;
+}
+
+.notifications {
+  padding: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.notifications h1 {
+  color: hsl(224, 21%, 14%);
+  font-size: 1.2rem;
+}
+.notifications h1 span {
+  background-color: hsl(219, 85%, 26%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  padding: 4px 9px;
+  font-size: 0.8rem;
+}
+.notifications p {
+  color: hsl(219, 14%, 63%);
+  font-size: 1rem;
+  font-weight: 500;
+}
+.notifications p:hover {
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
 }
 
 .container {
@@ -12,4 +52,86 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: left;
+  padding: 20px;
+  gap: 15px;
+}
+.container .card, .container .card2 {
+  background-color: hsl(210, 60%, 98%);
+  display: flex;
+  padding: 10px;
+  gap: 15px;
+  font-size: 0.8em;
+  border-radius: 10px;
+}
+.container .card img, .container .card2 img {
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+}
+.container .card i, .container .card2 i {
+  color: hsl(1, 90%, 64%);
+}
+.container .card p, .container .card2 p {
+  margin-right: 20px;
+  color: hsl(219, 12%, 42%);
+}
+.container .card .link, .container .card2 .link {
+  color: hsl(219, 12%, 42%);
+  font-weight: 800;
+}
+.container .card .link:hover, .container .card2 .link:hover {
+  cursor: pointer;
+  color: hsl(219, 85%, 26%);
+}
+.container .card .name, .container .card2 .name {
+  color: hsl(224, 21%, 14%);
+  font-weight: 800;
+  margin-right: 3px;
+}
+.container .card .name:hover, .container .card2 .name:hover {
+  cursor: pointer;
+}
+.container .card .time, .container .card2 .time {
+  color: hsl(219, 14%, 63%);
+  line-height: 2;
+  font-weight: 500;
+}
+.container .card .chess, .container .card2 .chess {
+  color: hsl(219, 85%, 26%);
+  font-weight: 800;
+}
+.container .card .chess:hover, .container .card2 .chess:hover {
+  cursor: pointer;
+}
+.container .card .chess:active, .container .card2 .chess:active {
+  color: hsl(219, 12%, 42%);
+}
+.container .card img:hover, .container .card2 img:hover {
+  cursor: pointer;
+}
+.container .card .img-chess, .container .card2 .img-chess {
+  margin-left: auto;
+}
+.container .card2 {
+  background-color: transparent;
+}
+.container .card-p {
+  display: flex;
+  flex-direction: column;
+}
+.container .card-p .message-container {
+  border: 1px solid hsl(205, 33%, 90%);
+  width: 70%;
+  margin-left: auto;
+  font-size: 0.8rem;
+  padding: 10px;
+  color: hsl(219, 14%, 63%);
+  font-weight: 500;
+}
+.container .card-p .message-container p {
+  color: hsl(219, 12%, 42%);
+}
+.container .card-p .message-container:hover {
+  cursor: pointer;
+  background-color: hsl(211, 68%, 94%);
 }/*# sourceMappingURL=style.css.map */
