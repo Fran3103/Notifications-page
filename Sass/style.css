@@ -134,4 +134,29 @@ main {
 .container .card-p .message-container:hover {
   cursor: pointer;
   background-color: hsl(211, 68%, 94%);
+}
+
+@media screen and (min-width: 900px) {
+  p {
+    font-size: 1rem;
+  }
+  main {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    max-width: 735px;
+    height: 840px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .container .card img, .container .card2 img {
+    width: 50px;
+    height: 50px;
+  }
+  .container .card-p .message-container {
+    width: 90%;
+  }
+  .container .card-p .message-container p {
+    margin-right: 10px;
+    font-size: 1.1rem;
+  }
 }/*# sourceMappingURL=style.css.map */
