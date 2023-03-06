@@ -163,6 +163,16 @@ main{
     }
 }
 
+
+.attribution { 
+    margin: 20px auto;
+    font-size: 0.7rem; 
+    text-align: center; 
+        a { color: hsl(228, 45%, 44%);
+            list-style: none;
+            text-decoration: none;
+        }}
+
 @media screen and (min-width:900px) {
     p{
         font-size: 1rem;
@@ -191,6 +201,11 @@ main{
         }
     }}}
     
+
+    .attribution{
+        font-size: 1rem;
+    }
+
 }
 
 

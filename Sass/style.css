@@ -136,6 +136,17 @@ main {
   background-color: hsl(211, 68%, 94%);
 }
 
+.attribution {
+  margin: 20px auto;
+  font-size: 0.7rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  list-style: none;
+  text-decoration: none;
+}
+
 @media screen and (min-width: 900px) {
   p {
     font-size: 1rem;
@@ -158,5 +169,8 @@ main {
   .container .card-p .message-container p {
     margin-right: 10px;
     font-size: 1.1rem;
+  }
+  .attribution {
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=style.css.map */
