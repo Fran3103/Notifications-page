@@ -22,13 +22,13 @@ todos.addEventListener('click', () =>{
 
 function selecionTodos(notificacionA, notificacionB, notificacionC){
     notificacionA.style.background = '#fff' ;
-    iconoA.style.display= 'none'
+    iconoA.style.display= 'none';
     notificacionA.style.background = '#fff' ;
-    iconoB.style.display= 'none'
+    iconoB.style.display= 'none';
     notificacionB.style.background = '#fff' ;
-    iconoC.style.display= 'none'
+    iconoC.style.display= 'none';
     notificacionC.style.background = '#fff' ;
-    number.style.display= 'none'
+    number.style.display= 'none';
 }
 
 
